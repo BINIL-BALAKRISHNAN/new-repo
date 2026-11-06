@@ -27,5 +27,5 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     -  name: execute the command
-       run: ls -l target/*.jar
+       run: ls -l simple-java-app/target/*.jar
     
